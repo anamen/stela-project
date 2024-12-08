@@ -205,7 +205,7 @@
     dropdown.addEventListener("change", (e) => {
         const value = e.target.value;
         if (value) {
-            const imgPath = `elements/${value}.png`; // Replace with paths for all elements.
+            const imgPath = `elements${value}.png`; // 
             objects.push({
                 type: "image",
                 src: imgPath,
